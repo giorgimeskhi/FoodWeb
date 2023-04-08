@@ -1,0 +1,241 @@
+/* აშორებს ჰორიზონტალურ სქროლს (overflow-x: hidden; ) */
+body{
+    overflow-x: hidden;   
+    background-color: white;
+    z-index: 0;
+}
+/* Background ელიფსის ფორმა */
+.ellipse-background {
+    position: absolute;
+    left: 450px;
+    top: -1045px;
+    width: 1677px;
+    height: 1677px;
+    border-radius: 50% / 50%;
+    background: #FFEEDE;
+}
+/* header */
+.header_box{
+    width: 100%;
+    position: relative;
+    display: flex;
+    left: 0;
+    top: 0;
+}
+.navbar{
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+.ul_list{
+    text-align: center;
+    margin: 52px 838px 717px 375px;
+}
+.nav_li{
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 90px;
+    width: 67px;
+    height: 21px;
+    left: 375px;
+    top: 52px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 21px;
+
+    color: white;
+
+}
+.title{
+    position: absolute;
+    width: 84px;
+    height: 27px;
+    left: 121px;
+    top: 47px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 27px;
+
+    color: #333333;
+}
+/* logo */
+.logo{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: -25px;
+    top: 5.5px;
+
+    background: #FF922C;
+    border-radius: 50%;
+}
+.beqa{
+    cursor: pointer;
+}
+.vector{
+    position: absolute;
+    margin: 51px 102px 718px 1760px;
+    cursor: pointer;
+}
+
+/* texts */
+
+h1{
+    position: absolute;
+    width: 81px;
+    height: 66px;
+    left: 100px;
+    top: 286px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+
+    display: flex;
+    align-items: flex-end;
+
+
+    color: #FF922C;
+}
+h2{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    left: 100px;
+    top: 352px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 62px;
+    line-height: 50px;
+
+
+    color: #333333;
+}
+.info_text{
+    position: absolute;
+    width: 500px;
+    height: 60px;
+    left: 100px;
+    top: 464px;
+    margin-top: 75px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+
+
+    color: #333333;
+    
+}
+.button{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    left: 100px;
+    top: 552px;
+    margin-top: 122px;
+
+    background: #FF922C;
+    box-shadow: 0px 20px 40px #F4E2D1;
+    border-radius: 69px;
+    border: solid 1px white;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    cursor: pointer;
+
+
+    color: #FFFFFF;
+}
+
+/* photos */
+
+
+.ellipse_bg{
+    position: absolute;
+    border-radius: 50% / 50%;
+    width: 700px;
+    height: 700px;
+    left: 920px;
+    top: 252px;
+
+    border: 5px dashed white;
+    background-color: transparent;
+    z-index: 0;
+}
+
+.img_1{
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    left: 482px;
+    top: 413px;
+    margin-left: 385px;
+}
+.img_2{
+    position: absolute;
+    left: 989px;
+    top: 271px;
+}
+.img_3{
+    position: absolute;
+    left: 823px;
+    top: 200px;
+    margin-left: 377px;
+}
+.img_4{
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    left: 667px;
+    top: 271px;
+    margin-left: 750px;
+}
+.img_5{   
+    position: absolute;
+    left: 1097px;
+    top: 413px;
+    margin-left: 420px;
+}
+.img{
+    width: 150px;
+    height: 150px;
+}
+.photos{
+    z-index: 1;
+}
+.main_dish{
+    position: absolute;
+    width: 600px;
+    height: 730px;
+    left: 970px;
+    top: 385px;
+    max-height: 60%;
+}
+.download_icon1{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 900px;
+    top: 750px;
+
+}
+.download_icon2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1600px;
+    top: 750px;
+}
